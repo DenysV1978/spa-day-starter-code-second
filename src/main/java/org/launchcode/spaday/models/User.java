@@ -9,7 +9,7 @@ public class User {
     @Size(min = 5, max = 15, message = "User name is too short or too long. Should be between 5 to 15 symbols")
     private String username;
 
-    @Email(message = "Should be email type")
+    @Email(message = "Should be email type ")
     private String email;
 
     @NotNull
